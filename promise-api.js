@@ -17,7 +17,7 @@ const p2 = new Promise((resolve, reject) => {
 });
 
 // Getting all the promised results (in parallel)
-// if one of those promise get rejected then Promise.all() will return rejected
+// if one of those promise get rejected then Promise.all() will return rejected.
 // const result = Promise.all([p1, p2]); // or Promisse.all([p1,p2]).then(...); 
 
 // Getting the result of the first promise finished (in parallel)
