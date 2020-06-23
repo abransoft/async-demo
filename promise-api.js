@@ -1,5 +1,5 @@
 //
-// Promisses in Parallel (parallel != concurrency)
+// Promises in Parallel (parallel != concurrency)
 //
 const p1 = new Promise((resolve, reject) => {
     setTimeout(() => {
