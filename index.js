@@ -9,6 +9,9 @@ console.log('Before');
 //     .then(repos => console.log(repos))
 //     .catch(err => console.log('Error', err.message));
 
+
+displayDataCommits();
+
 // Async and await approach (await calls should be wrap with an async function)
 async function displayDataCommits() {
     try {
@@ -19,7 +22,6 @@ async function displayDataCommits() {
         console.log(err.message);
     }
 }
-displayDataCommits();
 
 console.log('After');
 
